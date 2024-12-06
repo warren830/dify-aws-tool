@@ -51,7 +51,7 @@ class LambdaYamlToJsonTool(BuiltinTool):
                 else:
                     self.lambda_client = boto3.client("lambda")
 
-            yaml_content = tool_parameters.get("yaml_content", "")
+            yaml_content = tool_parameters.get("json_param", "")
             if not yaml_content:
                 return self.create_text_message("Please input yaml_content")
 

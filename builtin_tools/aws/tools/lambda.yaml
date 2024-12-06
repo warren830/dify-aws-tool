@@ -13,7 +13,7 @@ description:
     pt_BR: A tool to call AWS Lambda.
   llm: A tool to call AWS Lambda.
 parameters:
-  - name: param
+  - name: json_param
     type: string
     required: true
     label:
